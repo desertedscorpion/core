@@ -51,7 +51,7 @@ FORCE=
 updatePackage() {
     name=$1
     
-    REPO=https://github.com/c9/$name
+    REPO=https://github.com/desertedscorpion/$name
     echo "${green}checking out ${resetColor}$REPO"
     
     if ! [[ -d ./plugins/$name ]]; then
